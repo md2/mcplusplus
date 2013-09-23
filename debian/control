@@ -1,0 +1,15 @@
+Source: mc++
+Section: admin
+Priority: extra
+Maintainer: md5 <root@localhost>
+Build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: mc++
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: password cracking tool
+ mc++ is a password recovery tool written in C++ using ruleset based on
+ that of John the Ripper. mc++ is primarily intended to work with non-salted
+ digests, especially MD5.
+
